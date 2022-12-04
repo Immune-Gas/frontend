@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MasterChef",
+  "sourceName": "contracts/MasterChef.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212207dfa010ec69081e121e5d51f9958a434e13daf69d736fcaf89ff2d2a70af2a9664736f6c63430008110033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212207dfa010ec69081e121e5d51f9958a434e13daf69d736fcaf89ff2d2a70af2a9664736f6c63430008110033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

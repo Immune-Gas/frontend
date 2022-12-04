@@ -1,0 +1,86 @@
+Arguments: 
+  /Users/akan/.nvm/versions/node/v14.19.0/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js
+
+PATH: 
+  /Users/akan/.rbenv/shims:/Users/akan/.nvm/versions/node/v14.19.0/bin:/Users/akan/.pyenv/bin:/Users/akan/.local/share/solana/install/active_release/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/akan/opt/anaconda3/bin:/Users/akan/opt/anaconda3/condabin:/Users/akan/.rbenv/shims:/Users/akan/.nvm/versions/node/v14.19.0/bin:/Users/akan/.pyenv/bin:/Users/akan/.local/share/solana/install/active_release/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/akan/.cargo/bin:/Users/akan/Library/Application Support/JetBrains/Toolbox/scripts:/Users/akan/.foundry/bin:/Users/akan/Library/Application Support/JetBrains/Toolbox/scripts:/Users/akan/.foundry/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.19.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND github.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+npm manifest: 
+  {
+    "name": "gasless",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "export": "next export",
+      "start": "next start",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start:local-gsn": "node_modules/.bin/gsn start -n http://localhost:8545",
+      "start:ganache": "npx ganache-cli --networkId 1337 --chainId 1337",
+      "story": "node migrations/script.js",
+      "merge": "npx sol-merger \"./contracts/*.sol\" ./merged"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sftwr-prjct-dev/gasless.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/sftwr-prjct-dev/gasless/issues"
+    },
+    "homepage": "https://github.com/sftwr-prjct-dev/gasless#readme",
+    "dependencies": {
+      "@opengsn/gsn": "^2.1.0",
+      "@openzeppelin/contracts": "3.3.0",
+      "@uniswap/sdk": "3.0.3",
+      "bnc-onboard": "1.19.1",
+      "ethers": "5.0.29",
+      "ganache-cli": "6.12.2",
+      "next": "10.0.6",
+      "qrcode.react": "1.0.1",
+      "react": "17.0.1",
+      "react-copy-to-clipboard": "5.0.3",
+      "react-dom": "17.0.1",
+      "truffle-hdwallet-provider": "1.0.17",
+      "web3": "1.3.4",
+      "web3-providers-http": "1.3.4"
+    },
+    "devDependencies": {
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.1.0",
+      "@types/jest": "^26.0.15",
+      "@types/node": "^14.14.0",
+      "@types/react": "^16.9.53",
+      "@types/react-dom": "^16.9.8",
+      "jest": "^26.6.0",
+      "postcss-flexbugs-fixes": "^4.2.1",
+      "postcss-preset-env": "^6.7.0",
+      "sol-merger": "3.1.0",
+      "tailwindcss": "^1.9.5",
+      "ts-jest": "^26.4.1",
+      "ts-node": "9.1.1",
+      "typescript": "^4.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
